@@ -133,56 +133,56 @@ const PlayerBar = ({ currentTrack, onNext, onPrevious }: PlayerBarProps) => {
     const effectiveVolume = isMuted ? 0 : volume;
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 bg-black border-t border-white/5 h-24 px-4 flex items-center justify-between z-50 select-none">
+        <div className="fixed bottom-0 left-0 right-0 bg-black border-t border-white/5 h-20 md:h-24 px-2 md:px-4 flex items-center justify-between z-50 select-none">
             {/* Left: Track Info */}
-            <div className="flex items-center gap-4 w-[30%] min-w-[200px]">
+            <div className="flex items-center gap-3 md:gap-4 w-full md:w-[30%] min-w-0">
                 <img
                     src={currentTrack.image}
                     alt={currentTrack.name}
-                    className="w-14 h-14 rounded shadow-lg object-cover"
+                    className="w-10 h-10 md:w-14 md:h-14 rounded shadow-lg object-cover shrink-0"
                 />
-                <div className="flex flex-col min-w-0">
-                    <span className="text-sm font-medium text-white truncate hover:underline cursor-pointer">
+                <div className="flex flex-col min-w-0 mr-2">
+                    <span className="text-xs md:text-sm font-medium text-white truncate hover:underline cursor-pointer">
                         {currentTrack.name}
                     </span>
-                    <span className="text-[11px] text-[#b3b3b3] hover:underline cursor-pointer truncate">
+                    <span className="text-[10px] md:text-[11px] text-[#b3b3b3] hover:underline cursor-pointer truncate">
                         {currentTrack.artist}
                     </span>
                 </div>
-                <button className="text-[#b3b3b3] hover:text-white transition-colors ml-2 shrink-0">
-                    <PlusCircle size={20} />
+                <button className="text-[#b3b3b3] hover:text-white transition-colors shrink-0">
+                    <PlusCircle size={18} className="md:w-5 md:h-5" />
                 </button>
             </div>
 
             {/* Center: Playback Controls & Progress */}
-            <div className="flex flex-col items-center max-w-[40%] w-full gap-2">
-                <div className="flex items-center gap-6">
+            <div className="flex flex-col items-center flex-1 md:max-w-[40%] md:w-full gap-1 md:gap-2">
+                <div className="flex items-center gap-4 md:gap-6">
                     <button
                         onClick={() => setIsShuffled(!isShuffled)}
-                        className={`${isShuffled ? 'text-[#1DB954]' : 'text-[#b3b3b3]'} hover:text-white transition-colors relative`}
+                        className={`${isShuffled ? 'text-[#1DB954]' : 'text-[#b3b3b3]'} hover:text-white transition-colors relative hidden sm:block`}
                     >
                         <Shuffle size={18} />
                         {isShuffled && <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-[#1DB954] rounded-full" />}
                     </button>
                     <button onClick={onPrevious} className="text-[#b3b3b3] hover:text-white transition-colors">
-                        <SkipBack size={20} fill="currentColor" />
+                        <SkipBack size={20} fill="currentColor" className="w-5 h-5 md:w-6 md:h-6" />
                     </button>
                     <button
                         onClick={() => setIsPlaying(!isPlaying)}
-                        className="w-11 h-11 rounded-full bg-white flex items-center justify-center hover:scale-105 transition-transform active:scale-95"
+                        className="w-9 h-9 md:w-11 md:h-11 rounded-full bg-white flex items-center justify-center hover:scale-105 transition-transform active:scale-95 shadow-lg"
                     >
                         {isPlaying ? (
-                            <Pause size={24} fill="black" className="text-black" />
+                            <Pause size={20} fill="black" className="text-black md:w-6 md:h-6" />
                         ) : (
-                            <Play size={24} fill="black" className="ml-0.5 text-black" />
+                            <Play size={20} fill="black" className="ml-0.5 text-black md:w-6 md:h-6" />
                         )}
                     </button>
                     <button onClick={onNext} className="text-[#b3b3b3] hover:text-white transition-colors">
-                        <SkipForward size={20} fill="currentColor" />
+                        <SkipForward size={20} fill="currentColor" className="w-5 h-5 md:w-6 md:h-6" />
                     </button>
                     <button
                         onClick={() => setRepeatMode(prev => prev === 'off' ? 'all' : prev === 'all' ? 'one' : 'off')}
-                        className={`${repeatMode !== 'off' ? 'text-[#1DB954]' : 'text-[#b3b3b3]'} hover:text-white transition-colors relative`}
+                        className={`${repeatMode !== 'off' ? 'text-[#1DB954]' : 'text-[#b3b3b3]'} hover:text-white transition-colors relative hidden sm:block`}
                     >
                         <Repeat size={18} />
                         {repeatMode !== 'off' && (
@@ -194,8 +194,8 @@ const PlayerBar = ({ currentTrack, onNext, onPrevious }: PlayerBarProps) => {
                     </button>
                 </div>
 
-                <div className="flex items-center gap-2 w-full max-w-[500px]">
-                    <span className="text-[11px] text-[#b3b3b3] w-10 text-right">{formatTime(currentTime)}</span>
+                <div className="flex items-center gap-2 w-full max-w-[500px] px-2 md:px-0">
+                    <span className="text-[10px] text-[#b3b3b3] w-8 md:w-10 text-right">{formatTime(currentTime)}</span>
                     <div
                         ref={progressBarRef}
                         onClick={handleProgressClick}
@@ -206,16 +206,16 @@ const PlayerBar = ({ currentTrack, onNext, onPrevious }: PlayerBarProps) => {
                             style={{ width: `${progressPercentage}%` }}
                         />
                         <div
-                            className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-white rounded-full opacity-0 group-hover:opacity-100 shadow-lg"
+                            className="absolute top-1/2 -translate-y-1/2 w-2.5 h-2.5 md:w-3 md:h-3 bg-white rounded-full opacity-0 md:group-hover:opacity-100 shadow-lg"
                             style={{ left: `${progressPercentage}%`, transform: `translate(-50%, -50%)` }}
                         />
                     </div>
-                    <span className="text-[11px] text-[#b3b3b3] w-10">{formatTime(duration)}</span>
+                    <span className="text-[10px] text-[#b3b3b3] w-8 md:w-10">{formatTime(duration)}</span>
                 </div>
             </div>
 
             {/* Right: Volume & Utilities */}
-            <div className="flex items-center justify-end gap-3 w-[30%] min-w-[180px]">
+            <div className="hidden md:flex items-center justify-end gap-3 w-[30%] min-w-[180px]">
                 <button className="text-[#b3b3b3] hover:text-white transition-colors">
                     <Mic2 size={16} />
                 </button>

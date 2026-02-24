@@ -61,26 +61,26 @@ export default function PlaylistPage() {
     <main className="min-h-screen bg-[#121212] overflow-y-auto">
       {/* Dynamic Background */}
       <div className="relative">
-        <div className="absolute inset-0 bg-indigo-900/40 h-[400px] -z-10" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#121212] h-[400px] -z-10" />
+        <div className="absolute inset-0 bg-indigo-900/40 h-[340px] md:h-[400px] -z-10" />
+        <div className="absolute inset-0 bg-linear-to-b from-transparent to-[#121212] h-[340px] md:h-[400px] -z-10" />
 
         <div className="flex flex-col">
           <PlaylistHeader playlist={playlist} />
 
           <div className="bg-[#121212]/30 backdrop-blur-sm -mt-4">
-            <div className="px-8 py-6 flex items-center justify-between">
-              <div className="flex items-center gap-8">
+            <div className="px-4 md:px-8 py-4 md:py-6 flex items-center justify-between">
+              <div className="flex items-center gap-4 md:gap-8">
                 <button
-                  className="w-14 h-14 rounded-full bg-[#1DB954] flex items-center justify-center hover:scale-105 transition-transform shadow-xl active:scale-95 shrink-0"
+                  className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-[#1DB954] flex items-center justify-center hover:scale-105 transition-transform shadow-xl active:scale-95 shrink-0"
                 >
-                  <svg role="img" height="24" width="24" viewBox="0 0 24 24" className="fill-black">
+                  <svg role="img" height="24" width="24" viewBox="0 0 24 24" className="fill-black w-5 h-5 md:w-6 md:h-6">
                     <path d="m7.05 3.606 13.49 7.79a.7.7 0 0 1 0 1.212L7.05 20.398A.7.7 0 0 1 6 19.792V4.208a.7.7 0 0 1 1.05-.602z"></path>
                   </svg>
                 </button>
 
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-3 md:gap-6">
                   {/* Artist/Collaborator Image */}
-                  <div className="w-8 h-10 rounded-md border-[2.5px] border-[#a7a7a7] overflow-hidden shrink-0">
+                  <div className="hidden sm:block w-8 h-10 rounded-md border-[2.5px] border-[#a7a7a7] overflow-hidden shrink-0">
                     <img src={playlist.tracks[0]?.image} alt="Collaborator" className="w-full h-full object-cover" />
                   </div>
 
@@ -89,7 +89,7 @@ export default function PlaylistPage() {
                     className={`${isShuffled ? 'text-[#1DB954]' : 'text-[#b3b3b3]'} hover:text-white transition-colors shrink-0`}
                     title="Enable shuffle"
                   >
-                    <svg role="img" height="24" width="24" viewBox="0 0 24 24" className="fill-current">
+                    <svg role="img" height="24" width="24" viewBox="0 0 24 24" className="fill-current w-5 h-5 md:w-6 md:h-6">
                       <path d="M13.151.922a.75.75 0 1 0-1.06 1.06L13.109 3H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h4.5v1.5H3a3.5 3.5 0 0 1-3.5-3.5V5A3.5 3.5 0 0 1 3 1.5h10.109l-1.018 1.018a.75.75 0 0 0 1.06 1.06l2.318-2.318a.75.75 0 0 0 0-1.06L13.15.922zM8.5 17.5H21a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-4.5V1.5H21A3.5 3.5 0 0 1 24.5 5v10a3.5 3.5 0 0 1-3.5 3.5H8.5v-1.5z" fill="none"></path>
                       <path d="M16.697 18H20a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-3.303l-1.414 1.414H19v9h-3.717l1.414 1.414z" className={isShuffled ? 'fill-[#1DB954]' : 'fill-[#b3b3b3]'}></path>
                       <path d="M7.303 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3.303l1.414-1.414H5V8h3.717L7.303 6z" className={isShuffled ? 'fill-[#1DB954]' : 'fill-[#b3b3b3]'}></path>

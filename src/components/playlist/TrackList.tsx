@@ -13,15 +13,15 @@ interface TrackListProps {
 
 const TrackList = ({ tracks, selectedTrackId, onSelectTrack, viewMode }: TrackListProps) => {
     return (
-        <div className="px-8 py-4 pb-20">
+        <div className="px-4 md:px-8 py-4 pb-24 md:pb-32">
             {/* Table Header - Sticky */}
-            <div className="sticky top-[64px] z-10 flex items-center gap-4 px-4 py-3 border-b border-white/10 bg-[#121212] mb-4 text-gray-400 text-sm font-light tracking-wider">
-                <div className="w-8 text-center shrink-0">#</div>
+            <div className="sticky top-0 md:top-[64px] z-10 flex items-center gap-4 px-4 py-3 border-b border-white/10 bg-[#121212] mb-4 text-gray-400 text-xs md:text-sm font-light tracking-wider">
+                <div className="w-6 md:w-8 text-center shrink-0">#</div>
                 <div className={`${viewMode === 'compact' ? 'flex-5' : 'flex-4'}`}>Title</div>
-                {viewMode === 'compact' && <div className="flex-3">Artist</div>}
+                {viewMode === 'compact' && <div className="hidden md:block flex-3">Artist</div>}
                 <div className={`hidden lg:block flex-3`}>Album</div>
                 <div className={`hidden md:block flex-2`}>Date added</div>
-                <div className="w-12 flex justify-end pr-4 shrink-0">
+                <div className="w-10 md:w-12 flex justify-end pr-2 md:pr-4 shrink-0">
                     <Clock size={16} />
                 </div>
             </div>

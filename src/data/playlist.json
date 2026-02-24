@@ -1,0 +1,312 @@
+{
+    "playlist": {
+        "id": "1",
+        "name": "Chill Vibes & Lo-Fi Beats",
+        "description": "The perfect collection for late-night coding, early-morning coffee, or just vibing through the day. Smooth transitions and mellow textures.",
+        "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?q=80&w=1000&auto=format&fit=crop",
+        "owner": "Spotify",
+        "likes": "1,234,567",
+        "tracks": [
+            {
+                "id": "1",
+                "name": "Midnight Drive",
+                "artist": "Lofi Girl",
+                "album": "Night Owl",
+                "duration": "0:30",
+                "addedAt": "19 Nov 2025",
+                "image": "https://images.unsplash.com/photo-1611339555312-e607c8352fd7?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            },
+            {
+                "id": "2",
+                "name": "Coffee Shop Morning",
+                "artist": "Jazz Hop",
+                "album": "Morning Brew",
+                "duration": "0:30",
+                "addedAt": "24 Nov 2025",
+                "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+            },
+            {
+                "id": "3",
+                "name": "Rainy Window",
+                "artist": "Cloudy Beats",
+                "album": "Weathering",
+                "duration": "0:30",
+                "addedAt": "25 Nov 2025",
+                "image": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+            },
+            {
+                "id": "4",
+                "name": "Summer Breeze",
+                "artist": "Tropical Vibe",
+                "album": "Ocean Waves",
+                "duration": "0:30",
+                "addedAt": "5 Dec 2025",
+                "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+            },
+            {
+                "id": "5",
+                "name": "Neon Lights",
+                "artist": "Synthwave Kid",
+                "album": "Retro City",
+                "duration": "0:30",
+                "addedAt": "13 Dec 2025",
+                "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+            },
+            {
+                "id": "6",
+                "name": "Starry Night",
+                "artist": "Celestial",
+                "album": "Universe",
+                "duration": "0:30",
+                "addedAt": "22 Dec 2025",
+                "image": "https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+            },
+            {
+                "id": "7",
+                "name": "Mountain Peak",
+                "artist": "Nature Sounds",
+                "album": "Wilderness",
+                "duration": "0:30",
+                "addedAt": "28 Dec 2025",
+                "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+            },
+            {
+                "id": "8",
+                "name": "Urban Jungle",
+                "artist": "Street Beats",
+                "album": "City Life",
+                "duration": "0:30",
+                "addedAt": "29 Dec 2025",
+                "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+            },
+            {
+                "id": "9",
+                "name": "Floating Away",
+                "artist": "Dreamy Sky",
+                "album": "Atmosphere",
+                "duration": "0:30",
+                "addedAt": "2 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
+            },
+            {
+                "id": "10",
+                "name": "Golden Hour",
+                "artist": "Sunset Vibe",
+                "album": "Horizon",
+                "duration": "0:30",
+                "addedAt": "5 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3"
+            },
+            {
+                "id": "11",
+                "name": "Gentle Stream",
+                "artist": "Forest Echo",
+                "album": "Roots",
+                "duration": "0:30",
+                "addedAt": "8 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3"
+            },
+            {
+                "id": "12",
+                "name": "Silver Lining",
+                "artist": "Glitch Hop",
+                "album": "Fragments",
+                "duration": "0:30",
+                "addedAt": "12 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3"
+            },
+            {
+                "id": "13",
+                "name": "Echoes in the Dark",
+                "artist": "Night Crawler",
+                "album": "Shadows",
+                "duration": "0:30",
+                "addedAt": "15 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3"
+            },
+            {
+                "id": "14",
+                "name": "Lost in Thought",
+                "artist": "Pensive Kid",
+                "album": "Reflection",
+                "duration": "0:30",
+                "addedAt": "18 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3"
+            },
+            {
+                "id": "15",
+                "name": "Moonlit Night",
+                "artist": "Stellar",
+                "album": "Orbit",
+                "duration": "0:30",
+                "addedAt": "21 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1532974297617-c0f05fe48bff?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3"
+            },
+            {
+                "id": "16",
+                "name": "Deep Sea",
+                "artist": "Tidal Wave",
+                "album": "Abyss",
+                "duration": "0:30",
+                "addedAt": "25 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3"
+            },
+            {
+                "id": "17",
+                "name": "Electric Dreams",
+                "artist": "Pulse",
+                "album": "Visions",
+                "duration": "0:30",
+                "addedAt": "28 Jan 2026",
+                "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            },
+            {
+                "id": "18",
+                "name": "Silent Forest",
+                "artist": "Evergreen",
+                "album": "Seasons",
+                "duration": "0:30",
+                "addedAt": "1 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+            },
+            {
+                "id": "19",
+                "name": "Crystal Clear",
+                "artist": "Sparkle",
+                "album": "Gemstone",
+                "duration": "0:30",
+                "addedAt": "4 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1516557070061-c3d1653fa646?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+            },
+            {
+                "id": "20",
+                "name": "Velvet Touch",
+                "artist": "Smooth Transitions",
+                "album": "Silk",
+                "duration": "0:30",
+                "addedAt": "7 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1528642466244-9343ee067cd1?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+            },
+            {
+                "id": "21",
+                "name": "Ancient Ruins",
+                "artist": "Timeless",
+                "album": "Legacy",
+                "duration": "0:30",
+                "addedAt": "10 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+            },
+            {
+                "id": "22",
+                "name": "Hidden Path",
+                "artist": "Seeker",
+                "album": "Journey",
+                "duration": "0:30",
+                "addedAt": "13 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1501535033-a594139be346?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+            },
+            {
+                "id": "23",
+                "name": "Cosmic Dust",
+                "artist": "Astro",
+                "album": "Nebula",
+                "duration": "0:30",
+                "addedAt": "16 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+            },
+            {
+                "id": "24",
+                "name": "Morning Mist",
+                "artist": "Dew Drop",
+                "album": "Awakening",
+                "duration": "0:30",
+                "addedAt": "19 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1502481851512-e9e2529bbbf9?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+            },
+            {
+                "id": "25",
+                "name": "Urban Rain",
+                "artist": "Street Beats",
+                "album": "Concrete Jungle",
+                "duration": "0:30",
+                "addedAt": "21 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
+            },
+            {
+                "id": "26",
+                "name": "Firefly",
+                "artist": "Luminous",
+                "album": "Glow",
+                "duration": "0:30",
+                "addedAt": "22 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1508138221679-760a23a2285b?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3"
+            },
+            {
+                "id": "27",
+                "name": "Slow Burn",
+                "artist": "Amber",
+                "album": "Embers",
+                "duration": "0:30",
+                "addedAt": "23 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3"
+            },
+            {
+                "id": "28",
+                "name": "Windy Peak",
+                "artist": "Nature Sounds",
+                "album": "Wilderness II",
+                "duration": "0:30",
+                "addedAt": "23 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3"
+            },
+            {
+                "id": "29",
+                "name": "Pacific Blue",
+                "artist": "Tropical Vibe",
+                "album": "Islands",
+                "duration": "0:30",
+                "addedAt": "24 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3"
+            },
+            {
+                "id": "30",
+                "name": "End Credits",
+                "artist": "Cinematic Lo-Fi",
+                "album": "The Final Scene",
+                "duration": "0:30",
+                "addedAt": "24 Feb 2026",
+                "image": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=100&auto=format&fit=crop",
+                "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3"
+            }
+        ]
+    }
+}
